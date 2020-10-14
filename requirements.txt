@@ -8,6 +8,7 @@ decorator==4.4.2
 Flask==1.1.2
 Flask-DebugToolbar==0.11.0
 Flask-SQLAlchemy==2.4.4
+Flask-WTF==0.14.3
 idna==2.10
 ipython==7.18.1
 ipython-genutils==0.2.0
@@ -27,3 +28,4 @@ traitlets==5.0.4
 urllib3==1.25.10
 wcwidth==0.2.5
 Werkzeug==1.0.1
+WTForms==2.3.3

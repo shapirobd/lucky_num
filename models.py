@@ -1,4 +1,5 @@
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.orm import validates
 
 db = SQLAlchemy()
 
@@ -19,3 +20,5 @@ class User(db.model):
     year = db.Column(db.Integer, nullable=False)
 
     color = db.Column(db.Text, nullable=False)
+
+    @validates('name')
